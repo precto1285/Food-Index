@@ -1,0 +1,29 @@
+{
+  "name": "food-index",
+  "version": "1.0.0",
+  "description": "Nutritional Log",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/precto1285/Food-Index.git"
+  },
+  "keywords": [
+    "Food"
+  ],
+  "author": "Philippe Recto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/precto1285/Food-Index/issues"
+  },
+  "homepage": "https://github.com/precto1285/Food-Index#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}

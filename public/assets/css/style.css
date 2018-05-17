@@ -1,3 +1,9 @@
+
+}
+body{
+    height:auto;
+    width:auto;
+}
 header{
     background-color: red;
     color: white;
@@ -7,12 +13,6 @@ header{
     padding-top: 135px;
     height: 300px;
     border-bottom-color:silver;
-}
-body{
-    width:auto;
-}
-header{
-
 }
 main{
     height:1000px; 

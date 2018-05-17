@@ -5,6 +5,7 @@
         <title>Food List Index</title>
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <script src="jquery-3.3.1.min.js"></script>
     </head>
     <body>
         <header>
@@ -12,28 +13,31 @@
             <p>Log your food here:</p>
         </header>
         <sidebar>
-                <button>
+                <button id="create-btn"> 
                     Add Food
                 </button>
-                <button>
+                <button id="read-btn">
                     See Food List
                 </button>
-                <button>
+                <button id="update-btn">
                         Update Food
                 </button>
-                <button>
+                <button id="delete-btn">
                     Delete Food
                 </button>
             </sidebar>
         <main>
-            <div id="foodIndex"></div>
+            <div id="foodIndex">
+                
+                    {{{ body }}}
+
+            </div>
         </main>
         
         <footer>
             Copyright &copy; 2018 Philippe Recto
         </footer>
-        <script>
-        
-        </script>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="assets/javascript.script.js"></script>    
     </body>
 </html>

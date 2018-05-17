@@ -15,19 +15,36 @@ header{
 
 }
 main{
-float: left;
+    height:1000px; 
+    border-style:solid;
+    border-radius:35px;
+    margin: 50px;
+    padding: 15px;  
 }
 sidebar{
-float: right;
+height:300px;
+width: 100%;
+align-content:center;
+padding-left:21px;
 }
 footer{
-clear: both;
+    margin-top:auto;
+    padding-top: 125px;
+    text-align:center;
+    font-size:25px;
+    background-color:red;
+    color: white;
+    font-style:oblique;
+    height:150px;
+    width: 100%;
 }
 #foodIndex{
 
 }        
 button{
-
+    height:130px;
+    width:230px;
+    font-size:25px;
 }
 h1 {
 
